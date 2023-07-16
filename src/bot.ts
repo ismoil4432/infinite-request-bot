@@ -78,7 +78,6 @@ if (process.env.NODE_ENV === 'production') {
 	app.listen(PORT, () => {
 		console.log(`Bot listening on port ${PORT}`);
 	});
-	bot.start();
 } else {
 	// Use Long Polling for development
 	bot.start();
